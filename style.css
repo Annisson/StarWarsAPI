@@ -37,3 +37,12 @@ body {
     min-width: 100%;
     padding: 15px;
 }
+
+.lightsabre {
+    text-align: center;
+}
+
+img {
+    margin: auto;
+    max-width: 80%;
+}
