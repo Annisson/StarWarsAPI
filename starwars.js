@@ -14,7 +14,7 @@ document.getElementById("searchButton").addEventListener("click", function () {
         .then(data => {
         if (data && data.result && data.result.length > 0) {
             const characterData = data.result[0].properties;
-            const outputText = `Name: ${characterData.name}\nGender: ${characterData.gender}\nHeight: ${characterData.height}\nHaircolor: ${characterData.hair_color}\nEyecolor: ${characterData.eye_color}`;
+            const outputText = `Name: ${characterData.name}\nGender: ${characterData.gender}\nMass: ${characterData.mass}\nHeight: ${characterData.height}\nHaircolor: ${characterData.hair_color}\nEyecolor: ${characterData.eye_color}`;
             document.getElementById("resultOutput").value = outputText;
         } 
         else {
