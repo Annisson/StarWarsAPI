@@ -4,12 +4,12 @@
 }
 
 :root {
-    --color-yoda: #334e30;
-    --color-r2d2: #2e557c;
     --color-c3po: #ad7d37;
     --color-darthvader: #381010;
+    --color-galaxy: #000000;
     --color-obiwan: #7e7863;
-    --color-galaxyblack: #000000;
+    --color-r2d2: #2e557c;
+    --color-yoda: #334e30;
 }
 
 html {
@@ -18,9 +18,22 @@ html {
 }
 
 body {
-    background-color: var(--color-obiwan);
+    background: linear-gradient(90deg, rgba(51,78,48,1) 0%, rgba(173,125,55,1) 35%, rgba(46,85,124,1) 92%);
+    margin-bottom: 80px;
 }
 
+.btn-bd-primary {
+    --bs-btn-font-weight: 600;
+    --bs-btn-border-color: var(--color-galaxy);
+    --bs-btn-color: var(--color-galaxy);
+    --bs-btn-bg: var(--color-yoda);
+    --bs-btn-hover-color: var(--color-galaxy);
+    --bs-btn-hover-bg: var(--color-c3po);
+    --bs-btn-hover-border-color: var(--color-galaxy);
+}
 
+.card-body  {
+    min-height: 120px;
+}
 
 
