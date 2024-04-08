@@ -18,19 +18,15 @@
             tillbaka biometrisk data. Några exempelnamn är Luke Skywalker, R2-D2, Darth Vader, Leia Organa, 
             Chewbacca. </p>
         <div class="mb-4 pt-3">
-            <label for="inputStarWarsName" class="form-label fw-semibold">Name of a Star Wars character:</label>
-            <input type="text" class="form-control" id="inputStarWarsName" placeholder="Please type the name here">
+            <label for="characterName" class="form-label fw-semibold">Name of a Star Wars character:</label>
+            <input type="text" class="form-control" id="characterName" placeholder="Please type the name here">
           </div>
           <div class="d-grid gap-2 d-md-block">
             <button type="button" id="searchButton" class="btn btn-bd-primary col-3">Search</button>
         </div>
         <div class="pt-2 pb-2">
             <h5 class="p-1">Result:</h5>
-            <div class="card">
-                <div class="card-body">
-                    <p class="card-text" id="formResultOutput"><p></p>
-                </div>
-            </div>
+            <textarea class="resultArea" id="resultOutput" rows="10"></textarea>
         </div>
     </div>
 
