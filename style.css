@@ -19,7 +19,12 @@ html {
 
 body {
     background: linear-gradient(90deg, rgba(51,78,48,1) 0%, rgba(173,125,55,1) 35%, rgba(46,85,124,1) 92%);
-    margin-bottom: 80px;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-family: 'jedi', Arial;
+    padding-left: 1rem;
 }
 
 .btn-bd-primary {
@@ -35,7 +40,7 @@ body {
 .resultArea {
     border-radius: var(--bs-border-radius);
     min-width: 100%;
-    padding: 15px;
+    padding: 0.9375rem;
 }
 
 .lightsabre {
