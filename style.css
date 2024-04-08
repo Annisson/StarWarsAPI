@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-yoda: #334e30;
+    --color-r2d2: #2e557c;
+    --color-c3po: #ad7d37;
+    --color-darthvader: #381010;
+    --color-obiwan: #7e7863;
+    --color-galaxyblack: #000000;
+}
+
+html {
+    min-height: 100vh;
+    position: relative;
+}
+
+body {
+    background-color: var(--color-obiwan);
+}
+
+
+
+
