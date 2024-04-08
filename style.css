@@ -24,6 +24,7 @@ body {
 
 h1 {
     font-family: 'jedi', Arial;
+    font-size: 5rem;
     padding-left: 1rem;
 }
 
@@ -50,4 +51,12 @@ h1 {
 img {
     margin: auto;
     max-width: 80%;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+        padding-left: 0;
+    }
 }
