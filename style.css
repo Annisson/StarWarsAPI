@@ -32,8 +32,7 @@ body {
     --bs-btn-hover-border-color: var(--color-galaxy);
 }
 
-.card-body  {
-    min-height: 120px;
+.resultArea {
+    min-width: 100%;
+    border-radius: var(--bs-border-radius);
 }
-
-
