@@ -54,9 +54,39 @@ img {
 }
 
 /* Media query for smaller screens */
-@media (max-width: 768px) {
+@media (min-width: 651px) and (max-width: 768px) {
     h1 {
         font-size: 2.5rem;
         padding-left: 0;
+    }
+
+    .btn {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    #searchButton {
+        padding-left: 0rem;
+    }
+}
+
+@media (max-width: 650px) {
+    h1 {
+        font-size: 2rem;
+        padding-left: 0.5rem;
+    }
+
+    #inputContainer {
+        flex-direction: column;
+    }
+
+    .col-9 {
+        width: 100%;
+    }
+
+    #searchButton {
+        width: 100%;
+        padding-left: calc(var(--bs-gutter-x)* .5);
+        padding-top: 0.5rem;;
     }
 }
